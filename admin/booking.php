@@ -55,7 +55,12 @@ $bookings = $conn->query($query);
                                     Edit
                                 </button>
 
-                                <button class="btn btn-sm btn-danger">Delete</button>
+                                <button
+                                    class="btn btn-sm btn-danger delete-btn"
+                                    data-id="<?php echo $book_data['id']; ?>">
+                                    Delete
+                                </button>
+
                             </td>
                         </tr>
                     <?php endwhile; ?>
@@ -68,7 +73,7 @@ $bookings = $conn->query($query);
 <!-- Edit Booking Modal -->
 <div class="modal fade" id="editBookingModal" tabindex="-1">
     <div class="modal-dialog">
-        <form method="POST" action="actions/update_booking.php" class="modal-content bg-dark text-white">
+        <form method="POST" action="../actions/update_booking.php" class="modal-content bg-dark text-white">
 
             <div class="modal-header">
                 <h5 class="modal-title">Edit Booking</h5>
@@ -124,6 +129,36 @@ $bookings = $conn->query($query);
     </div>
 </div>
 
+<!-- Delete Booking Modal -->
+<div class="modal fade" id="deleteBookingModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form method="POST" action="../actions/delete_booking.php" class="modal-content bg-dark text-white">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Booking</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <input type="hidden" name="id" id="delete-id">
+
+                <p class="mb-0">
+                    Are you sure you want to delete this booking?
+                </p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Cancel
+                </button>
+                <button type="submit" name="delete" class="btn btn-danger">
+                    Delete
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
 
 
 <?php

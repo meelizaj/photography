@@ -19,3 +19,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Delete modal handling
+    const deleteButtons = document.querySelectorAll(".delete-btn");
+    const deleteModal = new bootstrap.Modal(document.getElementById("deleteBookingModal"));
+
+    deleteButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            document.getElementById("delete-id").value = this.dataset.id;
+            deleteModal.show();
+        });
+    });
+
+});
+
+
+
