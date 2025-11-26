@@ -1,0 +1,33 @@
+CREATE DATABASE aperture;
+
+CREATE TABLE IF NOT EXISTS aper_admins (
+    admin_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    admin_name VARCHAR(255) NOT NULL,
+    email_add VARCHAR(255) NOT NULL,
+    pwd VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS packages (
+    package_id INT AUTO_INCREMENT PRIMARY KEY,
+    package_name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS plans (
+    plan_id INT AUTO_INCREMENT PRIMARY KEY,
+    plan_name VARCHAR(50) NOT NULL,
+    price DECIMAL(10,2) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS bookings (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    booking_date DATE NOT NULL,
+    booking_time TIME NOT NULL,
+    package VARCHAR(100) NOT NULL,
+    plan VARCHAR(100) NOT NULL, 
+    price DECIMAL(10, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY (email)
+);

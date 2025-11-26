@@ -92,3 +92,50 @@
     letter-spacing: 2px;
     color: #ddd;
 }
+
+/* ---------------- Modal & Carousel Styles ---------------- */
+.modal-content {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-close {
+    filter: invert(1);
+    /* Makes the close button white */
+}
+
+.carousel-item img {
+    height: 80vh;
+    /* Set a height relative to the viewport for large images */
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    /* Ensure the image fits within the modal without cropping */
+    margin: 0 auto;
+    display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Smaller control area */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 1rem;
+}

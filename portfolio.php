@@ -37,9 +37,9 @@ require_once 'header.php'
             <div class="container" style="position: relative; z-index: 1;">
                 <div class="row g-4 justify-content-center">
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-6" data-category="Portrait">
                         <div class="portfolio-card">
-                            <img src="assets/images/portraitp1.jpg">
+                            <img src="assets/images/portraitp1.jpg" alt="Portrait Category">
                             <div class="portfolio-overlay">
                                 <h3 class="category-title">Portrait</h3>
                                 <p class="category-subtitle">Individual / Group</p>
@@ -47,9 +47,10 @@ require_once 'header.php'
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <!-- Events Card -->
+                    <div class="col-md-6 col-lg-6" data-category="Events">
                         <div class="portfolio-card">
-                            <img src="assets/images/events2.jpg">
+                            <img src="assets/images/events2.jpg" alt="Events Category">
                             <div class="portfolio-overlay">
                                 <h3 class="category-title">Events</h3>
                                 <p class="category-subtitle">Debut / Graduation / Wedding</p>
@@ -57,9 +58,10 @@ require_once 'header.php'
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <!-- Specialized Card -->
+                    <div class="col-md-6 col-lg-6" data-category="Specialized">
                         <div class="portfolio-card">
-                            <img src="assets/images/specialized2.jpg">
+                            <img src="assets/images/specialized2.jpg" alt="Specialized Category">
                             <div class="portfolio-overlay">
                                 <h3 class="category-title">Specialized</h3>
                                 <p class="category-subtitle">Pet / Newborn & Maternity</p>
@@ -67,9 +69,10 @@ require_once 'header.php'
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <!-- Themed Card -->
+                    <div class="col-md-6 col-lg-6" data-category="Themed">
                         <div class="portfolio-card">
-                            <img src="assets/images/themed2.jpg">
+                            <img src="assets/images/themed2.jpg" alt="Themed Category">
                             <div class="portfolio-overlay">
                                 <h3 class="category-title">Themed</h3>
                                 <p class="category-subtitle">Black & White / Film</p>
@@ -95,6 +98,35 @@ require_once 'header.php'
                 </a>
             </div>
         </section>
+    </div>
+</div>
+
+<div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="portfolioModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Carousel Inner will be populated by JavaScript -->
+                    <div class="carousel-inner" id="carouselInner">
+                        <!-- Images go here -->
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

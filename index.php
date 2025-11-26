@@ -11,7 +11,7 @@ require_once 'header.php';
             <h1 class="brand-name-part text-2">SYNDICATE</h1>
             <h1 class="brand-name-part text-3">PHOTOGRAPHY</h1>
 
-            <a href="contact.html"
+            <a href="contact_us.php"
                 class="btn btn-outline-light mt-4 py-2 px-3 rounded-3 d-flex align-items-center fw-semibold text-uppercase">
                 <i class="fas fa-camera me-2"></i>
                 Schedule a shoot!
@@ -20,7 +20,7 @@ require_once 'header.php';
             <p class="tagline mt-4 fs-5 fst-italic">Turning fleeting moments into timeless memories</p>
         </div>
 
-        <div class="d-flex align-items-center justify-content-end col-4 pe-5">
+        <div class="hero-side-images align-items-center justify-content-end col-4 pe-5">
             <div class="side-images d-flex flex-column gap-3">
                 <div class="side-image-item bg-cover bg-center border border-1 border-white shadow-lg opacity-75 grayscale-100 transition-filter"
                     style="width: 200px; height: 200px; background-image: url('assets/images/hero1.jpg'); background-size: cover; background-repeat: no-repeat;">
@@ -209,7 +209,7 @@ require_once 'header.php';
                 <p>Whether it’s a timeless solo shot, a heartwarming family portrait, a proud graduation moment, or
                     a sleek studio headshot—we capture you at your best. Professional, personalized, and
                     picture-perfect. Book your session today and let every frame speak for itself.</p>
-                <a href="#" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
+                <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
 
@@ -229,7 +229,7 @@ require_once 'header.php';
                 <p>Whether it’s the romance of your wedding day or the fun of a birthday celebration, we’re here to
                     capture every smile, laugh, and unforgettable detail. With a creative eye and a passion for
                     storytelling, we turn your special moments into lasting memories.</p>
-                <a href="#" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
+                <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
     </div>
@@ -253,7 +253,7 @@ require_once 'header.php';
                 <p>Whether it’s a timeless solo shot, a heartwarming family portrait, a proud graduation moment, or
                     a sleek studio headshot—we capture you at your best. Professional, personalized, and
                     picture-perfect. Book your session today and let every frame speak for itself.</p>
-                <a href="#" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
+                <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
 
@@ -273,7 +273,7 @@ require_once 'header.php';
                 <p>Whether it’s the romance of your wedding day or the fun of a birthday celebration, we’re here to
                     capture every smile, laugh, and unforgettable detail. With a creative eye and a passion for
                     storytelling, we turn your special moments into lasting memories.</p>
-                <a href="#" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
+                <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
     </div>

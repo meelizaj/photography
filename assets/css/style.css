@@ -5,10 +5,12 @@
 @import url(contact.css);
 @import url(policy.css);
 @import url(terms.css);
+@import url(log-in.css);
+@import url(booking.css);
 
 body {
     font-family: 'Georgia', serif;
-    background-color: #f8f8f8;
+    background-color: #333333;
     color: #333;
 }
 
