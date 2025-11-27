@@ -29,25 +29,9 @@
             <h2 class="text-white fw-bold mb-3">Booking Confirmed!</h2>
             <p class="text-white fs-5 mb-4">Your session request has been successfully submitted.</p>
 
-            <div class="text-start bg-dark p-3 rounded mb-4">
-                <p>Name: <strong id="conf-name"></strong></p>
-                <p>Date: <strong id="conf-date"></strong></p>
-                <p>Plan: <strong id="conf-plan"></strong></p>
-            </div>
-
             <a href="index.php" class="btn btn-outline-light mt-4" onclick="clearData()">Return to Homepage</a>
         </div>
     </div>
-
-    <script>
-        document.getElementById('conf-name').textContent = localStorage.getItem('booking_name');
-        document.getElementById('conf-date').textContent = localStorage.getItem('booking_date') + ' @ ' + localStorage.getItem('booking_time');
-        document.getElementById('conf-plan').textContent = localStorage.getItem('booking_plan').toUpperCase();
-
-        function clearData() {
-            localStorage.clear();
-        }
-    </script>
 </body>
 
 </html>

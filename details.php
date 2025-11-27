@@ -1,62 +1,6 @@
 <?php
 require_once 'header.php';
 ?>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-    body {
-        font-family: 'Inter', sans-serif;
-        background-color: #333;
-        color: #e5e5e5;
-        padding-bottom: 75px;
-    }
-
-    .header-bar {
-        background-color: #2b2b2b;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    }
-
-    .form-control,
-    .form-select {
-        background-color: #444;
-        color: #fff;
-        border: 1px solid #666;
-        padding-left: 0.5rem;
-    }
-
-    .summary-box {
-        background-color: #444;
-    }
-
-    /* Stepper Styles */
-    .step-circle {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .active-step {
-        background-color: #e5e5e5;
-        color: #333;
-        border: 4px solid #6c757d;
-    }
-
-    .completed-step {
-        background-color: #6b6b6b;
-        color: #e5e5e5;
-    }
-
-    .step-line {
-        height: 2px;
-        background-color: #6b6b6b;
-        flex-grow: 1;
-    }
-</style>
 
 <div class="container my-5 pt-3">
     <!-- Stepper (Step 3 Active) -->
