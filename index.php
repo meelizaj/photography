@@ -11,7 +11,7 @@ require_once 'header.php';
             <h1 class="brand-name-part text-2">SYNDICATE</h1>
             <h1 class="brand-name-part text-3">PHOTOGRAPHY</h1>
 
-            <a href="contact_us.php"
+            <a href="booking.php"
                 class="btn btn-outline-light mt-4 py-2 px-3 rounded-3 d-flex align-items-center fw-semibold text-uppercase">
                 <i class="fas fa-camera me-2"></i>
                 Schedule a shoot!
@@ -44,13 +44,13 @@ require_once 'header.php';
             <p class="mb-0 fs-3 fw-bold">Bold. Authentic. Unforgettable. We turn fleeting moments into permanent
                 memories that speak louder than words.</p>
         </blockquote>
-        <a href="#" class="btn btn-outline-light btn-lg mt-4">VIEW OUR WORK</a>
+        <a href="portfolio.php" class="btn btn-outline-light btn-lg mt-4">VIEW OUR WORK</a>
     </div>
 </section>
 
-<section class="category-grid py-5 bg-dark text-white">
+<section class="category-grid py-5 bg-dark text-white categ">
     <div class="container">
-        <h2 class="text-center mb-5 text-uppercase">Categories</h2>
+        <h2 class="text-center mb-5 text-uppercase" style="color: #bdbdbdff; font-size: 3.3rem">Categories</h2>
 
         <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -186,8 +186,8 @@ require_once 'header.php';
     </div>
 </section>
 
-<section class="section-separator">
-    <h2 class="display-6 fw-bold text-uppercase">Let's Capture Moments of Your Life.</h2>
+<section class="section-separator cap">
+    <h2 class="display-6 fw-bold text-uppercase mt-4" style="color: #f4f4f4ff;">Let's Capture Moments of Your Life.</h2>
 </section>
 
 <section class="py-5" style="background-color: #DBD5D5;">
@@ -197,9 +197,9 @@ require_once 'header.php';
         <div class="row g-5 mb-5 align-items-center">
             <div class="col-md-6">
                 <div class="row g-2">
-                    <div class="col-6"><img src="assets/images/portraitp1.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/sp1.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 391px;"></div>
-                    <div class="col-6"><img src="assets/images/portraitp2.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/sp2.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 326px;"></div>
                 </div>
             </div>
@@ -217,9 +217,9 @@ require_once 'header.php';
         <div class="row g-5 mb-5 align-items-center">
             <div class="col-md-6 order-md-2">
                 <div class="row g-2">
-                    <div class="col-6"><img src="assets/images/eventsp1.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/e1.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 391px;" alt="Events Photography"></div>
-                    <div class="col-6"><img src="assets/images/eventsp2.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/e2.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 326px;" alt="Events Photography"></div>
                 </div>
             </div>
@@ -241,18 +241,16 @@ require_once 'header.php';
         <div class="row g-5 mb-5 align-items-center">
             <div class="col-md-6">
                 <div class="row g-2">
-                    <div class="col-6"><img src="assets/images/portraitp1.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/ss1.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 326px;"></div>
-                    <div class="col-6"><img src="assets/images/portraitp2.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/ss2.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 391px;"></div>
                 </div>
             </div>
             <div class="col-md-6">
-                <h3 class="text-uppercase">Portrait</h3>
-                <p class="lead">Portraits That Tell Your Story.</p>
-                <p>Whether it’s a timeless solo shot, a heartwarming family portrait, a proud graduation moment, or
-                    a sleek studio headshot—we capture you at your best. Professional, personalized, and
-                    picture-perfect. Book your session today and let every frame speak for itself.</p>
+                <h3 class="text-uppercase">Specialized</h3>
+                <p class="lead">Unique Moments, Beautifully Captured.</p>
+                <p>From the warmth of motherhood to the joyful spirit of your pets—we create personalized photography experiences that honor life’s most treasured moments. Each session is thoughtfully designed with care, comfort, and creativity to make your memories truly unforgettable.</p>
                 <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
@@ -261,18 +259,16 @@ require_once 'header.php';
         <div class="row g-5 mb-5 align-items-center">
             <div class="col-md-6 order-md-2">
                 <div class="row g-2">
-                    <div class="col-6"><img src="assets/images/eventsp1.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/st1.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 326px;" alt="Events Photography"></div>
-                    <div class="col-6"><img src="assets/images/eventsp2.jpg" class="img-fluid rounded shadow"
+                    <div class="col-6"><img src="assets/images/st2.png" class="img-fluid rounded shadow"
                             style="width: 262px; height: 391px;" alt="Events Photography"></div>
                 </div>
             </div>
             <div class="col-md-6 order-md-1">
-                <h3 class="text-uppercase">Events</h3>
-                <p class="lead">Cherish Every Moment</p>
-                <p>Whether it’s the romance of your wedding day or the fun of a birthday celebration, we’re here to
-                    capture every smile, laugh, and unforgettable detail. With a creative eye and a passion for
-                    storytelling, we turn your special moments into lasting memories.</p>
+                <h3 class="text-uppercase">Themed</h3>
+                <p class="lead">Bring Your Vision to Life.</p>
+                <p>Step into a world of creativity with our themed photo sessions—whether it’s fantasy, seasonal, cosplay, or any concept you imagine. We’ll help you style, pose, and capture every detail to turn your ideas into stunning visual stories.</p>
                 <a href="booking.php" class="btn btn-dark mt-3 text-uppercase">Book Now</a>
             </div>
         </div>
@@ -288,7 +284,7 @@ require_once 'header.php';
             availability.
         </p>
 
-        <a href="#contact" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
+        <a href="contact_us.php" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
             Get in Touch
         </a>
     </div>

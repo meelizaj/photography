@@ -6,7 +6,7 @@ require_once 'header.php'
     <div class="row g-0">
 
         <div class="col-1 d-none d-md-flex justify-content-center bg-none" style="position: absolute; z-index: 1;">
-            <div class="d-flex flex-column sidebar-title pt-5 mt-5">
+            <div class="d-flex text-black flex-column sidebar-title pt-5 mt-5">
                 <span>P</span>
                 <span>O</span>
                 <span>R</span>
@@ -20,9 +20,9 @@ require_once 'header.php'
         </div>
 
 
-        <section class="bg-secondary text-center pt-5 pb-0 position-relative" style="background-image: url('assets/images/portfolio\ hero.png'); min-height: 350px;">
+        <section class="bg-secondary text-center pt-5 pb-0 position-relative" style="background-image: url('assets/images/portfolio\ hero.png'); min-height: 650px;">
             <div class="container pt-5 mt-4">
-                <h2 class="portfolio-hero-text text-uppercase text-dark fw-bold mb-4 px-5">
+                <h2 class="portfolio-hero-text text-uppercase text-dark fw-bold mb-4 px-5 mt-5">
                     We elevate vintage, bringing the best of <br> the past to the modern
                 </h2>
 
@@ -39,7 +39,7 @@ require_once 'header.php'
 
                     <div class="col-md-6 col-lg-6" data-category="Portrait">
                         <div class="portfolio-card">
-                            <img src="assets/images/portraitp1.jpg" alt="Portrait Category">
+                            <img src="assets/images/por5.png" alt="Portrait Category">
                             <div class="portfolio-overlay">
                                 <h3 class="category-title">Portrait</h3>
                                 <p class="category-subtitle">Individual / Group</p>
@@ -93,7 +93,7 @@ require_once 'header.php'
                     availability.
                 </p>
 
-                <a href="#contact" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
+                <a href="contact_us.php" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
                     Get in Touch
                 </a>
             </div>

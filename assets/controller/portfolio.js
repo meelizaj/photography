@@ -1,31 +1,31 @@
 const galleryData = {
     Portrait: [{
-        path: 'assets/images/portraitp1.jpg',
+        path: 'assets/images/por7.png',
         alt: 'Portrait Session 1',
         category: 'Portrait'
     },
     {
-        path: 'assets/images/portraitp2.jpg',
+        path: 'assets/images/por4.png',
         alt: 'Portrait Session 2',
         category: 'Portrait'
     },
     {
-        path: 'assets/images/portrait1.jpg',
+        path: 'assets/images/por6.png',
         alt: 'Portrait Grid Image 1',
         category: 'Portrait'
     },
     {
-        path: 'https://placehold.co/800x600/2980b9/ffffff?text=Portrait+3',
+        path: 'assets/images/por1.png',
         alt: 'Portrait Session 3',
         category: 'Portrait'
     },
     {
-        path: 'https://placehold.co/600x900/1abc9c/ffffff?text=Portrait+4',
+        path: 'assets/images/por2.png',
         alt: 'Portrait Session 4',
         category: 'Portrait'
     },
     {
-        path: 'https://placehold.co/1000x700/f39c12/ffffff?text=Portrait+5',
+        path: 'assets/images/por3.png',
         alt: 'Portrait Session 5',
         category: 'Portrait'
     },
@@ -46,16 +46,16 @@ const galleryData = {
         category: 'Events'
     },
     {
-        path: 'https://placehold.co/900x600/e67e22/ffffff?text=Event+3',
+        path: 'assets/images/eve1.png',
         alt: 'Event Coverage 3',
         category: 'Events'
     },
     {
-        path: 'https://placehold.co/600x800/e74c3c/ffffff?text=Event+4',
+        path: 'assets/images/eve2.png',
         category: 'Events'
     },
     {
-        path: 'https://placehold.co/1000x600/9b59b6/ffffff?text=Event+5',
+        path: 'assets/images/eve3.png',
         alt: 'Event Coverage 5',
         category: 'Events'
     },
@@ -71,17 +71,17 @@ const galleryData = {
         category: 'Specialized'
     },
     {
-        path: 'https://placehold.co/700x700/9b59b6/ffffff?text=Specialized+3',
+        path: 'assets/images/spe1.png',
         alt: 'Specialized Shoot 3',
         category: 'Specialized'
     },
     {
-        path: 'https://placehold.co/800x600/34495e/ffffff?text=Specialized+4',
+        path: 'assets/images/spe2.png',
         alt: 'Specialized Shoot 4',
         category: 'Specialized'
     },
     {
-        path: 'https://placehold.co/900x900/16a085/ffffff?text=Specialized+5',
+        path: 'assets/images/spe3.png',
         alt: 'Specialized Shoot 5',
         category: 'Specialized'
     },
@@ -97,17 +97,17 @@ const galleryData = {
         category: 'Themed'
     },
     {
-        path: 'https://placehold.co/800x600/f1c40f/ffffff?text=Themed+3',
+        path: 'assets/images/the1.png',
         alt: 'Themed Session 3',
         category: 'Themed'
     },
     {
-        path: 'https://placehold.co/600x900/95a5a6/ffffff?text=Themed+4',
+        path: 'assets/images/the2.png',
         alt: 'Themed Session 4',
         category: 'Themed'
     },
     {
-        path: 'https://placehold.co/1200x800/d35400/ffffff?text=Themed+5',
+        path: 'assets/images/the3.png',
         alt: 'Themed Session 5',
         category: 'Themed'
     },

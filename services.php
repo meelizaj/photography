@@ -43,7 +43,7 @@ require_once 'header.php';
                         <li><i class="bi bi-calendar-check me-2"></i> Delivery in 2 weeks</li>
                     </ul>
                     <p class="display-6 fw-bold mb-4">60$</p>
-                    <a href="#" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
+                    <a href="booking.php" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@ require_once 'header.php';
                         <li><i class="bi bi-calendar-check me-2"></i> Delivery in 1 week</li>
                     </ul>
                     <p class="display-6 fw-bold mb-4">90$</p>
-                    <a href="#" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
+                    <a href="booking.php" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@ require_once 'header.php';
                         <li><i class="bi bi-calendar-check me-2"></i> Delivery in 2 weeks</li>
                     </ul>
                     <p class="display-6 fw-bold mb-4">150$</p>
-                    <a href="#" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
+                    <a href="booking.php" class="btn btn-outline-light mt-auto text-uppercase">Get</a>
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@ require_once 'header.php';
             availability.
         </p>
 
-        <a href="#contact" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
+        <a href="contact_us.php" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
             Get in Touch
         </a>
     </div>

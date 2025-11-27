@@ -44,7 +44,7 @@ require_once 'header.php';
             </div>
         </div>
 
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5" style="margin-top: 4.35rem;">
             <div class="card p-4 rounded-3 summary-box">
                 <h5 class="text-white border-bottom pb-3 mb-3">Order Total</h5>
                 <div class="d-flex justify-content-between py-3">

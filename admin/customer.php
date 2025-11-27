@@ -33,7 +33,7 @@ $customer = $conn->query($query);
                         <tr>
                             <td class="py-3 px-2 text-start"><?php echo $cust_data['id']; ?></td>
                             <td class="py-3 px-2 text-start"><?php echo $cust_data['full_name']; ?></td>
-                            <td class="py-3 px-2 text-start"><?php echo $cust_data['email'] ?></td>
+                            <td class="py-3 px-2 text-start"><?php echo $cust_data['email']; ?></td>
                             <td class="py-3 px-2 text-start"><?php echo $cust_data['created_at']; ?></td>
                         </tr>
                     <?php endwhile; ?>

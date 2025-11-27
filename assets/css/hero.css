@@ -123,3 +123,18 @@
     height: 250px;
     object-fit: cover;
 }
+
+.cap {
+    background-image: url('../images/hero.jpg');
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.categ {
+    background-image: url('../images/categ.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

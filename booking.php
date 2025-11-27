@@ -35,7 +35,7 @@ require_once 'header.php'
     <!-- Step 1 Content -->
     <div class="w-100 mx-auto" style="max-width: 800px;">
         <h2 class="text-center mb-4 text-white">Select a Package Type</h2>
-        <div class="row g-4 p-2">
+        <div class="row g-4 p-2" style="margin-bottom: 9rem;">
             <div class="col-12 col-md-6">
                 <div class="package-card rounded-3 shadow-lg" onclick="selectPackage('portrait', this)">
                     <img src="assets/images/b portrait.png" class="w-100 h-100 object-fit-cover" style="filter: grayscale(100%);">

@@ -33,12 +33,12 @@ require_once 'header.php';
 
     <div class="w-100 mx-auto" style="max-width: 900px;">
         <h2 class="text-center mb-4 text-white">Select a Session Plan</h2>
-        <div class="row g-3">
+        <div class="row g-3" style="margin-bottom: 8.5rem;">
             <!-- LITE -->
             <div class="col-12 col-lg-4">
-                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('lite', 200, this)">
+                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('lite', 60, this)">
                     <h5>LITE SESSION</h5>
-                    <div class="price">$200</div>
+                    <div class="price">$60</div>
                     <ul class="list-unstyled text-white-50">
                         <li>✓ 1-hour session</li>
                         <li>✓ 40+ edited photos</li>
@@ -48,9 +48,9 @@ require_once 'header.php';
             </div>
             <!-- STANDARD -->
             <div class="col-12 col-lg-4">
-                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('standard', 350, this)">
+                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('standard', 90, this)">
                     <h5>STANDARD SESSION</h5>
-                    <div class="price">$350</div>
+                    <div class="price">$90</div>
                     <ul class="list-unstyled text-white-50">
                         <li>✓ 1.5-hour session</li>
                         <li>✓ 70+ edited photos</li>
@@ -60,9 +60,9 @@ require_once 'header.php';
             </div>
             <!-- EXTENDED -->
             <div class="col-12 col-lg-4">
-                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('extended', 500, this)">
+                <div class="pricing-card rounded-3 p-4 h-100" onclick="selectPlan('extended', 150, this)">
                     <h5>EXTENDED SESSION</h5>
-                    <div class="price">$500</div>
+                    <div class="price">$150</div>
                     <ul class="list-unstyled text-white-50">
                         <li>✓ 3-hours session</li>
                         <li>✓ 80+ edited photos</li>

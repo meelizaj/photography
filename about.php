@@ -6,7 +6,7 @@ require_once 'header.php';
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="display-4 fw-bold mb-3">Our Passion. Your Story.<br>Timeless Memories.</h1>
+                <h1 class="display-5 fw-bold mb-3">Our Passion,<br> Your Story, <br> Timeless Memories.</h1>
                 <p class="lead fst-italic">From intimate portraits to grand celebrations, we capture every detail
                     that tells your story — turning fleeting moments into lasting treasures.</p>
             </div>
@@ -20,7 +20,7 @@ require_once 'header.php';
 
             <div class="col-lg-5">
                 <div class="pe-lg-4">
-                    <h5 class="fw-bold mb-3">Hey, Icons!<br>We're Aperture Syndicate.</h5>
+                    <h1 class="fw-bold mb-3">Hey, Icons!<br>We're Aperture Syndicate.</h1>
                     <p class="text-muted" style="line-height: 1.8;">
                         Our mission is simple: capture life's moments beautifully. As passionate photographers, we
                         strive to make memories last a lifetime by creating stunning, heartfelt images that tell
@@ -105,7 +105,7 @@ require_once 'header.php';
             availability.
         </p>
 
-        <a href="#contact" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
+        <a href="contact_us.php" class="btn btn-outline-light btn-lg text-uppercase fw-bold px-5">
             Get in Touch
         </a>
     </div>

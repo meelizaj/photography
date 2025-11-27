@@ -3,7 +3,7 @@
 ?>
 
     <header class="contact-hero">
-        <h1 class="hero-title text-white">Let's Create</h1>
+        <h1 class="hero-title text-white">Get in touch!</h1>
     </header>
 
     <section class="py-5" style="background-color: #1a1a1a;">
@@ -12,7 +12,7 @@
 
                 <div class="col-lg-7">
                     <p class="lead mb-5 text-secondary">
-                        Ready to start your project? Fill out the form below and we will get back to you within 24 hours.
+                        Queries about your project? Fill out the form below and we will get back to you within 24 hours.
                     </p>
 
                     <form>
@@ -34,16 +34,7 @@
                             </div>
                         </div>
 
-                        <select class="form-select text-white" style="background-color: #1a1a1a;">
-                            <option selected disabled>Type of Session</option>
-                            <option value="portrait">Portrait</option>
-                            <option value="wedding">Wedding / Event</option>
-                            <option value="commercial">Commercial / Brand</option>
-                            <option value="other">Other Inquiry</option>
-                        </select>
-
-                        <input type="text" class="form-control" placeholder="Preferred Date (Optional)" onfocus="(this.type='date')" onblur="(this.type='text')">
-
+                    
                         <textarea class="form-control" rows="4" placeholder="Tell us about your vision..."></textarea>
 
                         <button type="submit" class="btn btn-light rounded-0 px-5 py-3 text-uppercase fw-bold mt-3 w-100">
