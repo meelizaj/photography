@@ -10,7 +10,7 @@ require_once 'header.php'
             <div class="d-flex justify-content-between align-items-center text-gray-800">
                 <div class="d-flex flex-column align-items-center w-20">
                     <div class="step-circle active-step">1</div>
-                    <span class="fs-6 mt-1 fw-bold text-dark text-center d-none d-sm-block">Select Package</span>
+                    <span class="fs-6 mt-1 fw-bold text-dark text-center d-none d-sm-block">Select Session</span>
                 </div>
                 <div class="step-line bg-secondary"></div>
                 <div class="d-flex flex-column align-items-center w-20">
@@ -34,7 +34,7 @@ require_once 'header.php'
 
     <!-- Step 1 Content -->
     <div class="w-100 mx-auto" style="max-width: 800px;">
-        <h2 class="text-center mb-4 text-white">Select a Package Type</h2>
+        <h2 class="text-center mb-4 text-white">Select a Session Type</h2>
         <div class="row g-4 p-2" style="margin-bottom: 9rem;">
             <div class="col-12 col-md-6">
                 <div class="package-card rounded-3 shadow-lg" onclick="selectPackage('portrait', this)">

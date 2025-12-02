@@ -62,7 +62,7 @@ require_once 'header.php';
 
             <div class="col-md-4 col-sm-6">
                 <div class="package-card d-flex flex-column">
-                    <h3 class="text-uppercase fw-normal mb-3">Premium</h3>
+                    <h3 class="text-uppercase fw-normal mb-3">Extended</h3>
                     <ul class="list-unstyled mb-4 text-start small">
                         <li><i class="bi bi-clock me-2"></i> 3 hours shooting</li>
                         <li><i class="bi bi-image me-2"></i> 150 retouched photos</li>

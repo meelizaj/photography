@@ -32,7 +32,7 @@ require_once 'header.php';
     </div>
 
     <div class="w-100 mx-auto" style="max-width: 900px;">
-        <h2 class="text-center mb-4 text-white">Select a Session Plan</h2>
+        <h2 class="text-center mb-4 text-white">Select a Package Plan</h2>
         <div class="row g-3" style="margin-bottom: 8.5rem;">
             <!-- LITE -->
             <div class="col-12 col-lg-4">
